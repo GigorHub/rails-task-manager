@@ -1,0 +1,12 @@
+<div class="top">
+<h1><%= @task.title %></h1>
+  <%= link_to "Edit", edit_task_path, class: "btn-edit" %>
+</div>
+
+<div class="details">
+  <%= @task.details %>
+</div>
+
+  <%= @task.completed ? "☑️ This task is completed" : "❌ This task is not completed yet" %>
+<hr>
+<%= link_to("Back to list", tasks_path) %>

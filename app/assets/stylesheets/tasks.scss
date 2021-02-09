@@ -1,3 +1,25 @@
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+}
+
+.btn-edit {
+  border: solid 1px grey;
+  padding: 10px;
+  border-radius: 3px;
+  color: white;
+  background-color: blue;
+  text-decoration: none;
+}
+
+.details {
+  border: solid 0.6px grey;
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 3px;
+  width: 500px;
+}
